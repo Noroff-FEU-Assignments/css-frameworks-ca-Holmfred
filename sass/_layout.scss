@@ -1,0 +1,73 @@
+body, 
+html {
+    height: 100%;
+}
+
+body {
+    background-image: radial-gradient(circle at center, $color-white, $color-grading);
+}
+
+footer {
+    background-color: $color-white;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 19px;
+    color: $color-text;
+}
+
+.social-footer {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top:  5px;
+}
+
+.footer-mail {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+@media (min-width:800px) {
+    footer {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .footer-mail {
+        gap: 200px;
+    }
+
+}
+
+@media (min-width:1000px) {
+    
+    .footer-mail {
+        gap: 250px
+    }
+}
+
+@media (min-width:1200px) {
+    
+    .footer-mail {
+        gap: 300px
+    }
+}
+
+@media (min-width:1400px) {
+    
+    .footer-mail {
+        gap: 400px
+    }
+}

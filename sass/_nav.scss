@@ -1,0 +1,20 @@
+.navbar {
+    background-color: $color-nav !important;
+    font-size: 18px;
+}
+
+.navbar-brand{
+    color: $color-primary !important;
+    font-size: 20px;
+}
+
+.active {
+    background-color: $color-white;
+    border-radius: 3px; 
+}
+
+.btn-go {
+    background-color: $color-primary;
+    color: $color-white;
+}
+  

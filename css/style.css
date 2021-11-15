@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&display=swap");
+h1 {
+  font-size: 34px;
+  color: #E92569;
+  font-family: "Playfair Display", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  color: #767676;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-image: radial-gradient(circle at center, #FFFFFF, #E5E5E5);
+}
+
+footer {
+  background-color: #FFFFFF;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 19px;
+  color: #767676;
+}
+
+.social-footer {
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+  margin-top: 5px;
+}
+
+.footer-mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 100px;
+}
+
+.wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+@media (min-width: 800px) {
+  footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .footer-mail {
+    gap: 200px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .footer-mail {
+    gap: 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer-mail {
+    gap: 300px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .footer-mail {
+    gap: 400px;
+  }
+}
+
+.navbar {
+  background-color: #EFEFEF !important;
+  font-size: 18px;
+}
+
+.navbar-brand {
+  color: #E92569 !important;
+  font-size: 20px;
+}
+
+.active {
+  background-color: #FFFFFF;
+  border-radius: 3px;
+}
+
+.btn-go {
+  background-color: #E92569;
+  color: #FFFFFF;
+}
+
+/* Carousel*/
+.carousel-item {
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-indicators li {
+  width: 30px;
+  height: 30px;
+  margin: 0 15px;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-color: #E92569;
+}
+
+.carousel-inner {
+  max-height: 462px;
+}
+
+/* Accordion */
+.accordion {
+  margin-top: 35px;
+}
+
+.card-header {
+  background-color: #FFFFFF;
+  border-bottom: solid 3px #E92569;
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FFFFFF;
+}
+
+.card-body img {
+  max-height: 175px;
+  max-width: 280px;
+}
+
+.social-media-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.social-card-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.btn-link {
+  color: #E92569;
+}
+/*# sourceMappingURL=style.css.map */
