@@ -30,7 +30,7 @@
                   </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-go my-2 my-sm-0" type="submit">Go</button>
               </form>
             </div>
@@ -51,77 +51,126 @@
         </div>
         
         <div class="container">
-            <h1>We do YAY things</h1>
+            
+          <h1>We do YAY things</h1>
             <p>
                 Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi, a rutrum justo eros pretium libero. Nullam vel enim id mauris eleifend finibus et ac orci. Aliquam metus massa, aliquam quis arcu sit amet, consectetur faucibus urna. Suspendisse massa diam, efficitur eu massa euismod, pretium lacinia magna. Donec mi orci, sollicitudin in luctus a, varius eget massa.
             </p>
 
             
-            <div class="accordion" id="accordion">
-                <div class="card">
-                  <div class="card-header" id="headingOne">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        First
-                      </button>
-                    </h2>
+            <div class="tabs">
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <a class="nav-link-tabs active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">First</a>
+                  <a class="nav-link-tabs" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Second</a>
+                  <a class="nav-link-tabs" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Third</a>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                  <div>
+                    <img src="images/tab/tab-1.jpg">
                   </div>
-              
-                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body">
-                        <p>
-                            Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. 
-                        </p>
-                        <img src="images/tab/tab-1.jpg">
-                        <div class="social-media-card">
-                            <p>Share</p> 
-                            <div class="social-card-icon"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i></div>
-                        </div>
+                  <div>
+                    <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
+                    <div class="social-media-tab">
+                      <p>Share</p> 
+                      <div class="social-tab-icon"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i></div>
                     </div>
                   </div>
                 </div>
-                <div class="card">
-                  <div class="card-header" id="headingTwo">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Second
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                    <div class="card-body">
-                        <p>
-                            Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. 
-                        </p>
-                        <img src="images/tab/tab-2.jpg">
-                        <div class="social-media-card">
-                            <p>Share</p> 
-                            <div class="social-card-icon"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i></div>
-                        </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                  <img src="images/tab/tab-2.jpg">
+                  <div>
+                    <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
+                    <div class="social-media-tab">
+                      <p>Share</p> 
+                      <div class="social-tab-icon"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i></div>
                     </div>
                   </div>
                 </div>
-                <div class="card">
-                  <div class="card-header" id="headingThree">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Third
-                      </button>
-                    </h2>
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                  <img src="images/tab/tab-3.jpg">
+                <div>
+                  <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
+                  <div class="social-media-tab">
+                    <p>Share</p> 
+                    <div class="social-tab-icon"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i></div>
                   </div>
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                    <div class="card-body">
-                        <p>
-                            Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. 
-                        </p>
-                        <img src="images/tab/tab-3.jpg">
-                        <div class="social-media-card">
-                            <p>Share</p> 
-                            <div class="social-card-icon"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i></div>
-                        </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            
+            
+            
+            <div class="accordion" id="accordionExample">
+
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      First
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>
+                      Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. 
+                    </p>
+                    <img src="images/tab/tab-1.jpg">
+                    <div class="social-media-card">
+                      <p>Share</p> 
+                      <div class="social-card-icon"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i></div>
                     </div>
                   </div>
                 </div>
+              </div>
+                
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Second
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>
+                      Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. 
+                    </p>
+                    <img src="images/tab/tab-2.jpg">
+                    <div class="social-media-card">
+                      <p>Share</p> 
+                      <div class="social-card-icon"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Third
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>
+                      Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. 
+                    </p>
+                    <img src="images/tab/tab-3.jpg">
+                    <div class="social-media-card">
+                      <p>Share</p> 
+                      <div class="social-card-icon"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
     </div>
