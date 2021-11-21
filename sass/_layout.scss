@@ -5,6 +5,8 @@ html {
 
 body {
     background-image: radial-gradient(circle at center, $color-grading, $color-white);
+    display: flex;
+    flex-direction: column;
 }
 
 footer {

@@ -21,6 +21,13 @@ html {
 
 body {
   background-image: radial-gradient(circle at center, #E5E5E5, #FFFFFF);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 footer {
@@ -322,9 +329,58 @@ footer {
   width: 100%;
 }
 
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+}
+
 .btn-contact {
   width: 100%;
   background-color: #767676;
   color: #FFFFFF;
+}
+
+.top-head {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .top-head {
+    display: block;
+  }
+  .mid-head {
+    display: none;
+  }
+}
+
+.email,
+.phone,
+.location {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.location {
+  margin-left: -40px;
+}
+
+.location li {
+  list-style: none;
+  color: #767676;
+}
+
+.fa-envelope,
+.fa-phone,
+.fa-map-marker-alt {
+  font-size: 30px;
 }
 /*# sourceMappingURL=style.css.map */

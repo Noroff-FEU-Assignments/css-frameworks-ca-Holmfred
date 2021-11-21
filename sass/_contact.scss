@@ -1,5 +1,54 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
 .btn-contact {
     width: 100%;
     background-color: $color-text;
     color: $color-white;
 }
+
+.top-head {
+    display: none;
+}
+ 
+@media (min-width: 768px) {
+     .top-head{
+        display: block;
+     } 
+
+     .mid-head {
+         display: none;
+     }
+}
+
+.email, 
+.phone,
+.location {
+    display: inline-flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.location {
+    margin-left: -40px;
+}
+
+.location li {
+    list-style: none;
+    color: $color-text;
+}
+
+.fa-envelope,
+.fa-phone,
+.fa-map-marker-alt {
+    font-size: 30px;
+}
+
+
+
+
+ 
+
